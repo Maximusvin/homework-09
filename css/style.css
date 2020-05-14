@@ -299,6 +299,7 @@ body {
   }
 
   .hero {
+    max-width: 350px;
     padding-left: 0;
     padding-right: 0;
   }

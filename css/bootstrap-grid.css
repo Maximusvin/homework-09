@@ -23,7 +23,7 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 748px) {
   .container {
     max-width: 748px;
   }
@@ -47,7 +47,7 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 748px) {
   .container,
   .container-sm,
   .container-md {
