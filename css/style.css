@@ -141,9 +141,6 @@ body {
 .reg__btn_log:hover,
 .reg__btn_log:focus {
   transform: translate(-2px, 0);
-  background-color: rgb(255, 78, 80);
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .reg__btn_up:hover,
@@ -340,6 +337,10 @@ body {
   .navigation {
     flex-direction: row-reverse;
     margin-bottom: 152px;
+  }
+
+  .hero {
+    max-width: 540px;
   }
 
   .hero__title {
