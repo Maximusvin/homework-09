@@ -119,10 +119,6 @@ body {
   background-position: top center;
 }
 
-.navigation {
-  text-align: center;
-}
-
 .reg__btn_log {
   color: #fff;
   margin-right: 19px;
@@ -295,6 +291,7 @@ body {
 
   .navigation {
     margin-bottom: 30px;
+    text-align: center;
   }
 
   .reg {
