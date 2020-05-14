@@ -12,37 +12,41 @@
   <body>
     <header class="header" id="header">
       <div class="container">
-        <nav class="navigation">
-          <ul class="reg">
-            <li class="reg__item">
-              <button class="reg__btn_log button">Log in</button>
-            </li>
-            <li class="reg__item">
-              <button class="reg__btn_up button">Sign up</button>
-            </li>
-          </ul>
-          <a href="#" class="logo">URLAUBSGLÜCK</a>
-        </nav>
-        <div class="hero">
-          <h1 class="hero__title">Share your holiday dreams</h1>
-          <p class="hero__subtitle">And find the perfect partner <span>to fullfill it</span></p>
-          <a href="#" class="hero__btn button">Find your holiday partner</a>
+        <div class="row align-items-center justify-content-between navigation">
+          <div class="col-12 col-md-4 reg">
+            <button class="reg__btn_log button">Log in</button>
+            <button class="reg__btn_up button">Sign up</button>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="#" class="logo">URLAUBSGLÜCK</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-9 hero">
+            <h1 class="hero__title">Share your holiday dreams</h1>
+            <p class="hero__subtitle">And find the perfect partner <span>to fullfill it</span></p>
+            <a href="#" class="hero__btn button">Find your holiday partner</a>
+          </div>
         </div>
       </div>
     </header>
     <main>
       <section class="partners">
         <div class="container">
-          <h2 class="partners__title">Meet a partner for your best holiday</h2>
-          <ul class="partners__list">
-            <li class="partners__item partners__item_order1">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="partners__title">Meet a partner for your best holiday</h2>
+            </div>
+          </div>
+          <div class="row partners__list">
+            <div class="col-12 col-md-6 col-lg-3 partners__item partners__item_order1">
               <span class="partners__img-wrap partners__img-wrap_icon1">
                 <img src="./images/part-1.jpg" alt="man" class="partners__img" width="122" height="122" />
               </span>
               <h3 class="partners__list-titile">Bradley Hunter</h3>
               <p class="partners__list-subtitle">Based in Chicago. I love playing tennis and loud music.</p>
-            </li>
-            <li class="partners__item partners__item_order3">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 partners__item partners__item_order3">
               <span class="partners__img-wrap partners__img-wrap_icon2">
                 <img src="./images/part-3.jpg" alt="man" class="partners__img" width="122" height="122" />
               </span>
@@ -50,23 +54,27 @@
               <p class="partners__list-subtitle">
                 I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
               </p>
-            </li>
-            <li class="partners__item partners__item_order2">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 partners__item partners__item_order2">
               <span class="partners__img-wrap partners__img-wrap_icon3">
                 <img src="./images/part-2.jpg" alt="woman" class="partners__img" width="122" height="122" />
               </span>
               <h3 class="partners__list-titile">Heather Walker</h3>
               <p class="partners__list-subtitle">I'm a happy person that loves cats and climbing on mountains.</p>
-            </li>
-            <li class="partners__item partners__item_order4">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 partners__item partners__item_order4">
               <span class="partners__img-wrap partners__img-wrap_icon4">
                 <img src="./images/part-4.jpg" alt="woman" class="partners__img" width="122" height="122" />
               </span>
               <h3 class="partners__list-titile">Bradley Hunter</h3>
               <p class="partners__list-subtitle">Based in Chicago. I love playing tennis and loud music.</p>
-            </li>
-          </ul>
-          <a href="#" class="partners__btn button">See other partners</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <a href="#" class="partners__btn button">See other partners</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>

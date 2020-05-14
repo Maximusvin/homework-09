@@ -29,9 +29,9 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 940px) {
   .container {
-    max-width: 970px;
+    max-width: 940px;
   }
 }
 
@@ -55,12 +55,12 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 940px) {
   .container,
   .container-sm,
   .container-md,
   .container-lg {
-    max-width: 970px;
+    max-width: 940px;
   }
 }
 
@@ -604,7 +604,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 748px) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -806,7 +806,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 940px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
